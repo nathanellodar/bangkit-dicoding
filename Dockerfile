@@ -9,8 +9,8 @@ COPY . .
 
 ENV APP_ENV=production
 ENV APP_PORT=8080
-ENV MODEL_URL="[MODEL URL]"
-ENV PROJECT_ID="[PROJECT ID]"
+ENV MODEL_URL="https://console.cloud.google.com/storage/browser/penerapan-ml"
+ENV PROJECT_ID="belajar-penerapan-ml-443607"
 
 CMD [ "npm", "start" ]
 
